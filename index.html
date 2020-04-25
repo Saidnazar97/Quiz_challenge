@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>Quiz Challenge</title>
+</head>
+
+<body>
+
+  <header class="navbar">
+    <h6>View Highscores</h6>
+    <h6>Time: 0</h6>
+  </header>
+
+  <!-- sets up bootstrap jumbotron -->
+  <div class="jumbotron bg-white rounded-0">
+    <h1 class="text-center mb-2">Coding Quiz Challenge</h1>
+    <form>
+      <div class="text-center ">
+        <p>
+          <h5>Try to aswer the following code-related questions within the time</h5>
+          <h5>limit. Keep in mind that incorrect answers will penalize your scoretime</h5>
+          <h5> by ten seconds!</h5>
+        </p>
+
+        <div class="text-center">
+          <button id="btnSubmit" class="btn btn-dark" style="width: 100px;" type="submit">
+            Start Quiz
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.0.slim.js"
+    integrity="sha256-sCexhaKpAfuqulKjtSY7V9H7QT0TCN90H+Y5NlmqOUE=" crossorigin="anonymous"></script>
+  <script src="./assets/app.js"></script>
+</body>
+
+</html>
