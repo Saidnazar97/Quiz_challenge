@@ -1,4 +1,4 @@
-# Random Password Generator
+# Quiz Challenge
 
 Requirements for me to make Quiz challenge app conserning with Javascript. Primarly, web applications render well on a variety of devices and window or screen sizes. As a developer, I will likely be asked to create Quiz app to generate to generate coding-related questions or have to develop an existing files by pictures how these look like.
 
